@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: demo
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/mydb01?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+    username: root
+    password: root
+
+
+
+
+count: 5
+my:
+  name: John002
+  age: 20
+
+
+#spring:
+---
+spring:
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ss
